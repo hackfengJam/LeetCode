@@ -1,4 +1,4 @@
-package leetcode.list.leet_1151;
+package leetcode.list.leet_zh_1151;
 
 public class ListNode {
     int val;

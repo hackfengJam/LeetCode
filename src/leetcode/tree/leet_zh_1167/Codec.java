@@ -1,7 +1,5 @@
-package leetcode.tree.leet_1167;
+package leetcode.tree.leet_zh_1167;
 
-
-import com.sun.deploy.util.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;

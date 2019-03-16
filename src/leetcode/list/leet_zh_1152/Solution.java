@@ -1,4 +1,4 @@
-package leetcode.list.leet_1152;
+package leetcode.list.leet_zh_1152;
 
 
 class Solution {

@@ -1,4 +1,4 @@
-package leetcode.misc.leet_1107;
+package leetcode.misc.leet_zh_1107;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package leetcode.tree.leet_1167;
+package leetcode.tree.leet_zh_1167;
 
 public class TreeNode {
     int val;

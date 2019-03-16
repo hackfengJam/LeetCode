@@ -1,4 +1,4 @@
-package leetcode.hash_mapping.leet_1164;
+package leetcode.hash_mapping.leet_zh_1164;
 
 import java.util.*;
 

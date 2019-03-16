@@ -1,4 +1,4 @@
-package leetcode.misc.leet_1106;
+package leetcode.misc.leet_zh_1106;
 
 class Solution {
     public int singleNumber(int[] nums) {
