@@ -1,4 +1,4 @@
-package leetcode.list.leet_zh_1151;
+package leetcode.list.leet_zh_1151_pending;
 
 public class Solution {
     public void deleteNode(ListNode node) {
