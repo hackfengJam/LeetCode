@@ -16,6 +16,6 @@ class Solution {
             nums[0] = nums[0] ^ nums[i];
         }
         System.out.println(nums[0]);
-//        new Solution().singleNumber(nums);
+//        new SolutionUF().singleNumber(nums);
     }
 }

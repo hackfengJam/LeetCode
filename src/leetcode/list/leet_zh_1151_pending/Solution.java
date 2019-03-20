@@ -15,7 +15,7 @@ public class Solution {
 //            listNode = listNode.next;
 //        }
         new Solution().deleteNode(listNode);
-//        ListNode l = new Solution().deleteNode(listNode);
+//        ListNode l = new SolutionUF().deleteNode(listNode);
 //        while (l != null) {
 //            System.out.println(l.val);
 //            l = l.next;
