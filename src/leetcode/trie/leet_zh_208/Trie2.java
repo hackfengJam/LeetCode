@@ -3,7 +3,11 @@ package leetcode.trie.leet_zh_208;
 import java.util.TreeMap;
 
 class Trie2 {
-
+    /*
+     * 执行用时 : 181 ms
+     * 内存消耗 : 69.8 MB
+     * 针对本题，将 node 子节点数写死
+     * */
     public class Node {
         public boolean isWord;
         public Node[] next;

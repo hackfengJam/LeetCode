@@ -11,7 +11,7 @@
     - [求众数](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
 - 【DFS】
     - [N 皇后_zh_51](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
-    - [朋友圈 - zh_547_DFS](./src/leetcode/segment/leet_zh_307/NumArray.java)
+    - [朋友圈 - zh_547_DFS](./src/leetcode/union_find/leet_zh_547/SolutionDFS.java)
 - 【链表】
     - [反转链表](./src/leetcode/list/leet_zh_1149/Solution.java)
     - [回文链表](./src/leetcode/list/zh_1150/Solution.java)
@@ -21,13 +21,16 @@
 - 【树】
     - [二叉树的序列化与反序列化](./src/leetcode/tree/leet_zh_1167/Codec.java)
 - 【字典树】
-    - [实现 Trie (前缀树)](./src/leetcode/trie/leet_zh_208/Trie.java)
+    - [实现 Trie (前缀树) - zh_208_TreeMap](./src/leetcode/trie/leet_zh_208/Trie.java)
+    - [实现 Trie (前缀树) - zh_208_数组](./src/leetcode/trie/leet_zh_208/Trie2.java)
+    - [添加与搜索单词 - 数据结构设计 - zh_211_TreeMap](./src/leetcode/trie/leet_zh_211/WordDictionary.java)
+    - [添加与搜索单词 - 数据结构设计 - zh_211_数组](./src/leetcode/trie/leet_zh_211/WordDictionary2.java)
 - 【线段树】
     - [区域和检索 - 数组不可变](./src/leetcode/segment/leet_zh_303/NumArray.java)
     - [区域和检索 - 数组可修改](./src/leetcode/segment/leet_zh_307/NumArray.java)
 - 【并查集】
-    - [朋友圈 - zh_547_并查集](./src/leetcode/segment/leet_zh_303/NumArray.java)
-    - [朋友圈 - zh_547_DFS](./src/leetcode/segment/leet_zh_307/NumArray.java)
+    - [朋友圈 - zh_547_并查集](./src/leetcode/union_find/leet_zh_547/SolutionUF.java)
+    - [朋友圈 - zh_547_DFS](./src/leetcode/union_find/leet_zh_547/SolutionDFS.java)
 
 
 #### 注意
