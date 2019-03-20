@@ -19,6 +19,8 @@
     * [常数时间插入、删除和获取随机元素](./src/leetcode/hash_mapping/leet_zh_1164/RandomizedSet.java)
 - 【树】
     * [二叉树的序列化与反序列化](./src/leetcode/tree/leet_zh_1167/Codec.java)
+- 【字典树】
+    * [实现 Trie (前缀树)](./src/leetcode/trie/leet_zh_208/Trie.java)
 - 【线段树】
     * [区域和检索 - 数组不可变](./src/leetcode/segment/leet_zh_303/NumArray.java)
     * [区域和检索 - 数组可修改](./src/leetcode/segment/leet_zh_307/NumArray.java)
