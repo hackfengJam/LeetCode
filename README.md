@@ -46,9 +46,12 @@
 持续更新...后续将添加具体解析，敬请关注我的博客：[blog](https://github.com/hackfengJam/blog)
 
 
-#### 其他博文
+#### 我的相关仓库
 
-Pending
+[HelloAlgorithm](https://github.com/hackfengJam/HelloAlgorithm)
+
+[LintCode](https://github.com/hackfengJam/LintCode)
+
   
 
 #### 优质资料汇总
