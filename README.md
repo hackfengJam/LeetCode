@@ -43,7 +43,9 @@
 * zh — [力扣（LeetCode 中文官网）](https://leetcode-cn.com/)
 
 
-持续更新...后续将添加具体解析，敬请关注我的博客：[blog](https://github.com/hackfengJam/blog)
+ps:
+- 之前的 [LeetCode](https://leetcode.com/) 号弄丢了，重头刷起，未来可期。
+- 持续更新...后续将添加具体解析，敬请关注我的博客：[blog](https://github.com/hackfengJam/blog)
 
 
 #### 我的相关仓库
