@@ -9,6 +9,9 @@
 - 【杂项】
     - [只出现一次的数字](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
     - [求众数](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
+- 【动态规划】
+    - [爬楼梯](./src/leetcode/dynamic_programming/zh_70_climbing_stairs/Solution.java)
+    - [最大子序和](./src/leetcode/dynamic_programming/zh_53_maximum_subarray/Solution.java)
 - 【DFS】
     - [N 皇后_zh_51](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
     - [朋友圈 - zh_547_DFS](./src/leetcode/union_find/leet_zh_547/SolutionDFS.java)
