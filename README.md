@@ -50,7 +50,7 @@
 
 [HelloAlgorithm](https://github.com/hackfengJam/HelloAlgorithm)
 
-[LintCode](https://github.com/hackfengJam/LintCode)
+[LintCode 平常练习 - Python](https://github.com/hackfengJam/LintCode)
 
   
 
