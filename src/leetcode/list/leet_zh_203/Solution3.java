@@ -1,18 +1,17 @@
 package leetcode.list.leet_zh_203;
 
-public class Solution {
+public class Solution3 {
     public ListNode removeElements(ListNode head, int val) {
 
         if (head == null)
             return null;
 
         ListNode res = removeElements(head.next, val);
-        if (head.val == val) {
-            return res;
-        } else {
-            head.next = res;
-            return head;
-        }
+
+
+        // 其实性能并非很好，但代码简洁
+        head.next = res;
+        return head.val == val ? res : head;
     }
 
     public static void main(String[] args) {
@@ -20,6 +19,6 @@ public class Solution {
         ListNode head = new ListNode(arr);
         System.out.println(head);
         System.out.println("========");
-        System.out.println(new Solution().removeElements(head, 6));
+        System.out.println(new Solution3().removeElements(head, 6));
     }
 }

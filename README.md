@@ -16,6 +16,8 @@
     - [反转链表](./src/leetcode/list/leet_zh_1149/Solution.java)
     - [回文链表](./src/leetcode/list/zh_1150/Solution.java)
     - [奇偶链表](./src/leetcode/list/leet_zh_1152/Solution.java)
+    - [移除链表元素 - 递归](./src/leetcode/list/leet_zh_203/Solution3.java)
+    - [移除链表元素 - 虚拟头结点](./src/leetcode/list/leet_zh_203/Solution2.java)
 - 【哈希与映射】
     - [常数时间插入、删除和获取随机元素](./src/leetcode/hash_mapping/leet_zh_1164/RandomizedSet.java)
 - 【树】
