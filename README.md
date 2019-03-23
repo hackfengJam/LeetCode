@@ -48,7 +48,9 @@
 
 #### 我的相关仓库
 
-[HelloAlgorithm](https://github.com/hackfengJam/HelloAlgorithm)
+[HelloAlgorithm - 常用数据结构与算法](https://github.com/hackfengJam/HelloAlgorithm)
+
+[AlgorithmVisualization - 算法可视化](https://github.com/hackfengJam/AlgorithmVisualization)
 
 [LintCode 平常练习 - Python](https://github.com/hackfengJam/LintCode)
 
