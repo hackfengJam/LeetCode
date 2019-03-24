@@ -1,4 +1,4 @@
-package leetcode.weekly_contest_129.leet_zh_1022;
+package weekly_contest.th_129.leet_zh_1022;
 
 class Solution {
 

@@ -1,4 +1,4 @@
-package leetcode.weekly_contest_129.leet_zh_1023;
+package weekly_contest.th_129.leet_zh_1023;
 
 class Solution {
     public String binaryToDecimal(int n) {

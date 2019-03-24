@@ -37,6 +37,14 @@
     - [朋友圈 - zh_547_并查集](./src/leetcode/union_find/leet_zh_547/SolutionUF.java)
     - [朋友圈 - zh_547_DFS](./src/leetcode/union_find/leet_zh_547/SolutionDFS.java)
 
+#### LeetCode 周赛
+
+- 【第 129 周】[题目链接](https://leetcode-cn.com/contest/weekly-contest-129)
+    - [将数组分成和相等的三个部分](./src/weekly_contest/th_129/leet_zh_1020/Solution.java)
+    - [可被 K 整除的最小整数](./src/weekly_contest/th_129/leet_zh_1021/Solution.java)
+    - [最佳观光组合](./src/weekly_contest/th_129/leet_zh_1022/Solution.java)
+    - [子串能表示从 1 到 N 数字的二进制串](./src/weekly_contest/th_129/leet_zh_1023/Solution.java)
+
 
 #### 注意
 

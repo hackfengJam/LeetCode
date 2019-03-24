@@ -1,4 +1,4 @@
-package leetcode.weekly_contest_129.leet_zh_1020;
+package weekly_contest.th_129.leet_zh_1020;
 
 class Solution {
     private boolean canThreePartsEqualSum(int[] A, int i, int N) {
