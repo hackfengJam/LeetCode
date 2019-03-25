@@ -7,8 +7,9 @@
 
 
 - 【杂项】
-    - [只出现一次的数字](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
-    - [求众数](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
+    - [只出现一次的数字](./src/leetcode/misc/leet_zh_1106/Solution.java)
+    - [求众数](./src/leetcode/misc/leet_zh_1107/Solution.java)
+    - [搜索二维矩阵 II](./src/leetcode/misc/leet_zh_1108/Solution.java) - [题目链接](https://leetcode-cn.com/explore/interview/card/top-interview-quesitons-in-2018/261/before-you-start/1108/)
 - 【动态规划】
     - [爬楼梯](./src/leetcode/dynamic_programming/zh_70_climbing_stairs/Solution.java)
     - [最大子序和](./src/leetcode/dynamic_programming/zh_53_maximum_subarray/Solution.java)
