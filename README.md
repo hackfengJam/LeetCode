@@ -26,6 +26,7 @@
     - [常数时间插入、删除和获取随机元素](./src/leetcode/hash_mapping/leet_zh_1164/RandomizedSet.java)
 - 【树】
     - [二叉树的序列化与反序列化](./src/leetcode/tree/leet_zh_1167/Codec.java)
+    - [验证二叉搜索树](./src/leetcode/tree/leet_zh_98/Solution.java)
 - 【字典树】
     - [实现 Trie (前缀树) - zh_208_TreeMap](./src/leetcode/trie/leet_zh_208/Trie.java)
     - [实现 Trie (前缀树) - zh_208_数组](./src/leetcode/trie/leet_zh_208/Trie2.java)
