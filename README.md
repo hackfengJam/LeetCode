@@ -28,6 +28,8 @@
     - [二叉树的序列化与反序列化](./src/leetcode/tree/leet_zh_1167/Codec.java)
     - [验证二叉搜索树](./src/leetcode/tree/leet_zh_98/Solution.java)
     - [平衡二叉树](./src/leetcode/tree/leet_zh_110/Solution.java)
+    - [路径总和](./src/leetcode/tree/leet_zh_112/Solution.java)
+    - [路径总和 II](./src/leetcode/tree/leet_zh_113/Solution.java)
 - 【字典树】
     - [实现 Trie (前缀树) - zh_208_TreeMap](./src/leetcode/trie/leet_zh_208/Trie.java)
     - [实现 Trie (前缀树) - zh_208_数组](./src/leetcode/trie/leet_zh_208/Trie2.java)
