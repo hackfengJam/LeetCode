@@ -30,6 +30,8 @@
     - [平衡二叉树](./src/leetcode/tree/leet_zh_110/Solution.java)
     - [路径总和](./src/leetcode/tree/leet_zh_112/Solution.java)
     - [路径总和 II](./src/leetcode/tree/leet_zh_113/Solution.java)
+    - [二叉搜索树的最近公共祖先](./src/leetcode/tree/leet_zh_235/Solution.java)
+    - [删除二叉搜索树中的节点](./src/leetcode/tree/leet_en_450/Solution.java)
 - 【字典树】
     - [实现 Trie (前缀树) - zh_208_TreeMap](./src/leetcode/trie/leet_zh_208/Trie.java)
     - [实现 Trie (前缀树) - zh_208_数组](./src/leetcode/trie/leet_zh_208/Trie2.java)
