@@ -7,42 +7,43 @@
 
 
 - 【杂项】
-    - [只出现一次的数字](./src/leetcode/misc/leet_zh_1106/Solution.java)
-    - [求众数](./src/leetcode/misc/leet_zh_1107/Solution.java)
-    - [搜索二维矩阵 II](./src/leetcode/misc/leet_zh_1108/Solution.java) - [题目链接](https://leetcode-cn.com/explore/interview/card/top-interview-quesitons-in-2018/261/before-you-start/1108/)
+    - [136. 只出现一次的数字 - Easy](./src/leetcode/misc/leet_zh_1106/Solution.java)
+    - [169. 求众数 - Easy](./src/leetcode/misc/leet_zh_1107/Solution.java)
+    - [240. 搜索二维矩阵 II - Medium](./src/leetcode/misc/leet_zh_1108/Solution.java) - [题目链接](https://leetcode-cn.com/explore/interview/card/top-interview-quesitons-in-2018/261/before-you-start/1108/)
 - 【动态规划】
-    - [爬楼梯](./src/leetcode/dynamic_programming/zh_70_climbing_stairs/Solution.java)
-    - [最大子序和](./src/leetcode/dynamic_programming/zh_53_maximum_subarray/Solution.java)
+    - [70. 爬楼梯 - Easy](./src/leetcode/dynamic_programming/zh_70_climbing_stairs/Solution.java)
+    - [53. 最大子序和 - Easy](./src/leetcode/dynamic_programming/zh_53_maximum_subarray/Solution.java)
 - 【DFS】
-    - [N 皇后_zh_51](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
-    - [朋友圈 - zh_547_DFS](./src/leetcode/union_find/leet_zh_547/SolutionDFS.java)
+    - [51. N 皇后 - Hard](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
+    - [547. 朋友圈 - Medium_DFS](./src/leetcode/union_find/leet_zh_547/SolutionDFS.java)
 - 【链表】
-    - [反转链表](./src/leetcode/list/leet_zh_1149/Solution.java)
-    - [回文链表](./src/leetcode/list/zh_1150/Solution.java)
-    - [奇偶链表](./src/leetcode/list/leet_zh_1152/Solution.java)
-    - [移除链表元素 - 递归](./src/leetcode/list/leet_zh_203/Solution3.java)
-    - [移除链表元素 - 虚拟头结点](./src/leetcode/list/leet_zh_203/Solution2.java)
+    - [206. 反转链表 - Easy](./src/leetcode/list/leet_zh_1149/Solution.java)
+    - [234. 回文链表 - Easy](./src/leetcode/list/zh_1150/Solution.java)
+    - [328. 奇偶链表 - Medium_pending](./src/leetcode/list/leet_zh_1152/Solution.java)
+    - [203. 移除链表元素 - Medium_递归](./src/leetcode/list/leet_zh_203/Solution3.java)
+    - [203. 移除链表元素 - Medium_虚拟头结点](./src/leetcode/list/leet_zh_203/Solution2.java)
 - 【哈希与映射】
-    - [常数时间插入、删除和获取随机元素](./src/leetcode/hash_mapping/leet_zh_1164/RandomizedSet.java)
+    - [380. 常数时间插入、删除和获取随机元素- Medium_pending](./src/leetcode/hash_mapping/leet_zh_1164/RandomizedSet.java)
 - 【树】
-    - [二叉树的序列化与反序列化](./src/leetcode/tree/leet_zh_1167/Codec.java)
-    - [验证二叉搜索树](./src/leetcode/tree/leet_zh_98/Solution.java)
-    - [平衡二叉树](./src/leetcode/tree/leet_zh_110/Solution.java)
-    - [路径总和](./src/leetcode/tree/leet_zh_112/Solution.java)
-    - [路径总和 II](./src/leetcode/tree/leet_zh_113/Solution.java)
-    - [二叉搜索树的最近公共祖先](./src/leetcode/tree/leet_zh_235/Solution.java)
-    - [删除二叉搜索树中的节点](./src/leetcode/tree/leet_en_450/Solution.java)
+    - [297. 二叉树的序列化与反序列化 - Hard](./src/leetcode/tree/leet_zh_1167/Codec.java)
+    - [98. 验证二叉搜索树 - Medium](./src/leetcode/tree/leet_zh_98/Solution.java)
+    - [110. 平衡二叉树 - Easy](./src/leetcode/tree/leet_zh_110/Solution.java)
+    - [113. 路径总和 - Easy](./src/leetcode/tree/leet_zh_112/Solution.java)
+    - [112. 路径总和 II - Medium](./src/leetcode/tree/leet_zh_113/Solution.java)
+    - [235. 二叉搜索树的最近公共祖先 - Medium](./src/leetcode/tree/leet_zh_235/Solution.java)
+    - [450. 删除二叉搜索树中的节点](./src/leetcode/tree/leet_en_450/Solution.java)
+    - [814. 二叉树剪枝 - Medium](./src/leetcode/tree/leet_en_450/Solution.java)
 - 【字典树】
-    - [实现 Trie (前缀树) - zh_208_TreeMap](./src/leetcode/trie/leet_zh_208/Trie.java)
-    - [实现 Trie (前缀树) - zh_208_数组](./src/leetcode/trie/leet_zh_208/Trie2.java)
-    - [添加与搜索单词 - 数据结构设计 - zh_211_TreeMap](./src/leetcode/trie/leet_zh_211/WordDictionary.java)
-    - [添加与搜索单词 - 数据结构设计 - zh_211_数组](./src/leetcode/trie/leet_zh_211/WordDictionary2.java)
+    - [208. 实现 Trie (前缀树) - Medium_TreeMap](./src/leetcode/trie/leet_zh_208/Trie.java)
+    - [208. 实现 Trie (前缀树) - Medium_数组](./src/leetcode/trie/leet_zh_208/Trie2.java)
+    - [211. 添加与搜索单词 - 数据结构设计 - Medium_TreeMap](./src/leetcode/trie/leet_zh_211/WordDictionary.java)
+    - [211. 添加与搜索单词 - 数据结构设计 - Medium_数组](./src/leetcode/trie/leet_zh_211/WordDictionary2.java)
 - 【线段树】
-    - [区域和检索 - 数组不可变](./src/leetcode/segment/leet_zh_303/NumArray.java)
-    - [区域和检索 - 数组可修改](./src/leetcode/segment/leet_zh_307/NumArray.java)
+    - [303. 区域和检索 - 数组不可变 - Easy](./src/leetcode/segment/leet_zh_303/NumArray.java)
+    - [307. 区域和检索 - 数组可修改 - Medium](./src/leetcode/segment/leet_zh_307/NumArray.java)
 - 【并查集】
-    - [朋友圈 - zh_547_并查集](./src/leetcode/union_find/leet_zh_547/SolutionUF.java)
-    - [朋友圈 - zh_547_DFS](./src/leetcode/union_find/leet_zh_547/SolutionDFS.java)
+    - [547. 朋友圈 - Medium_并查集](./src/leetcode/union_find/leet_zh_547/SolutionUF.java)
+    - [547. 朋友圈 - Medium_DFS](./src/leetcode/union_find/leet_zh_547/SolutionDFS.java)
 
 #### LeetCode 周赛
 
