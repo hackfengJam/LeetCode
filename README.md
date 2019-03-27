@@ -33,6 +33,7 @@
     - [235. 二叉搜索树的最近公共祖先 - Medium](./src/leetcode/tree/leet_zh_235/Solution.java)
     - [450. 删除二叉搜索树中的节点](./src/leetcode/tree/leet_en_450/Solution.java)
     - [814. 二叉树剪枝 - Medium](./src/leetcode/tree/leet_en_450/Solution.java)
+    - [129. 求根到叶子节点数字之和 - Medium](./src/leetcode/tree/leet_zh_129/Solution.java)
 - 【字典树】
     - [208. 实现 Trie (前缀树) - Medium_TreeMap](./src/leetcode/trie/leet_zh_208/Trie.java)
     - [208. 实现 Trie (前缀树) - Medium_数组](./src/leetcode/trie/leet_zh_208/Trie2.java)
