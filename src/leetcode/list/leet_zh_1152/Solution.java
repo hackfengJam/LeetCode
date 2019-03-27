@@ -3,34 +3,36 @@ package leetcode.list.leet_zh_1152;
 
 class Solution {
     /*
-     * 奇偶链表*/
+     * 328.奇偶链表
+     * 执行用时 : 6 ms
+     * 内存消耗 : 39.1 MB
+     * */
     public ListNode oddEvenList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
+
         ListNode oddNode = head;
         ListNode evenNode = head.next;
-        ListNode evenHead = head.next;
+        ListNode evenHead = evenNode;
+
         ListNode cursor = evenNode.next;
-        boolean flag = true;
-        while (cursor != null) {
-            if (flag) {
-                oddNode.next = cursor;
-                oddNode = oddNode.next;
-                flag = !flag;
-            } else {
-                evenNode.next = cursor;
-                evenNode = evenNode.next;
-                flag = !flag;
-            }
+        while (oddNode.next != null && evenNode.next != null) {
+            oddNode.next = cursor;
+            oddNode = oddNode.next;
+            cursor = cursor.next;
+
+            evenNode.next = cursor;
+            evenNode = evenNode.next;
             cursor = cursor.next;
         }
+        if (cursor != null) {
+            oddNode.next = cursor;
+            oddNode = oddNode.next;
+        }
+
         oddNode.next = evenHead;
         evenNode.next = null;
-
-        // 1,2,3,4 -> 1,3,2,4
-        // 1,2,3,4,5 -> 1,3,5,2,4
-        // 1,2,3,4,5,6,7 -> 1,3,5,7,2,4,6
 
         return head;
     }
