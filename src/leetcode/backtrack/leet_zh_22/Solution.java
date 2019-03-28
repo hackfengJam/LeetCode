@@ -9,6 +9,13 @@ public class Solution {
      * 执行用时 : 12 ms
      * 内存消耗 : 43.7 MB
      * */
+
+    /**
+     *
+     * @param str 当前括号
+     * @param leftCount 已经放入，但还未被匹配过的左括号
+     * @param restCount 还未被放入的左括号
+     */
     private List<String> generateP(String str, int leftCount, int restCount) {
         List<String> res = new ArrayList<>();
         if (restCount == 0 && leftCount == 0) {
@@ -16,11 +23,13 @@ public class Solution {
             return res;
         }
         if (restCount > 0) {
+            // 放入左括号，leftCount + 1， restCount - 1
             for (String line : generateP("(", leftCount + 1, restCount - 1)) {
                 res.add(str + line);
             }
         }
         if (leftCount > 0)
+            // 放入右括号，leftCount - 1， restCount + 1
             for (String line : generateP(")", leftCount - 1, restCount)) {
                 res.add(str + line);
             }
