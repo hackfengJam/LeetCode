@@ -14,19 +14,22 @@
 - 【动态规划】
     - [70. 爬楼梯 - Easy](./src/leetcode/dynamic_programming/zh_70_climbing_stairs/Solution.java)
     - [53. 最大子序和 - Easy](./src/leetcode/dynamic_programming/zh_53_maximum_subarray/Solution.java)
+    - [300. 最长上升子序列 - Medium](./src/leetcode/dynamic_programming/leet_zh_300/Solution.java)
 - 【回溯】
     - [22. 括号生成 - Medium](./src/leetcode/backtrack/leet_zh_22/Solution.java)
     - [51. N 皇后 - Hard](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
     - [52. N 皇后 II - Hard](./src/leetcode/backtrack/zh_52_n_queens/Solution.java)
     - [547. 朋友圈 - Medium_DFS](./src/leetcode/union_find/leet_zh_547/SolutionDFS.java)
+- 【栈】
+    - [20. Valid Parentheses（合法/有效的括号）](./src/leetcode/stack/leet_en_20/Solution.java)
+- 【哈希与映射】
+    - [380. 常数时间插入、删除和获取随机元素- Medium_pending](./src/leetcode/hash_mapping/leet_zh_1164/RandomizedSet.java)
 - 【链表】
     - [206. 反转链表 - Easy](./src/leetcode/list/leet_zh_1149/Solution.java)
     - [234. 回文链表 - Easy](./src/leetcode/list/zh_1150/Solution.java)
     - [328. 奇偶链表 - Medium_pending](./src/leetcode/list/leet_zh_1152/Solution.java)
     - [203. 移除链表元素 - Medium_递归](./src/leetcode/list/leet_zh_203/Solution3.java)
     - [203. 移除链表元素 - Medium_虚拟头结点](./src/leetcode/list/leet_zh_203/Solution2.java)
-- 【哈希与映射】
-    - [380. 常数时间插入、删除和获取随机元素- Medium_pending](./src/leetcode/hash_mapping/leet_zh_1164/RandomizedSet.java)
 - 【树】
     - [297. 二叉树的序列化与反序列化 - Hard](./src/leetcode/tree/leet_zh_1167/Codec.java)
     - [98. 验证二叉搜索树 - Medium](./src/leetcode/tree/leet_zh_98/Solution.java)
