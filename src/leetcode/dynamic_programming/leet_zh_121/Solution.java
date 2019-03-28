@@ -20,8 +20,10 @@ public class Solution {
 
     /*
      * 121. Best Time to Buy and Sell Stock
-     * * 执行用时 : 3 ms
+     * 执行用时 : 3 ms
      * 内存消耗 : 37.9 MB
+     * 到第 i 天为止，最大利润为 Profit(i)，最便宜股价为第 minX 天；
+     * 则Profit(i) = max(Profit(i-1)，prices[i] - prices[minX])
      * */
     public int maxProfit(int[] prices) {
         if (prices.length == 0)
