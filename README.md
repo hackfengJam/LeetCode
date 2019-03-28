@@ -27,6 +27,8 @@
 - 【哈希与映射】
     - [380. 常数时间插入、删除和获取随机元素- Medium_pending](./src/leetcode/hash_mapping/leet_zh_1164/RandomizedSet.java)
 - 【链表】
+    - [160. 交叉链表 - Easy](./src/leetcode/list/leet_zh_1149/Solution.java)
+    - [160. 交叉链表 - Easy_优化](./src/leetcode/list/leet_zh_1149/Solution.java)
     - [206. 反转链表 - Easy](./src/leetcode/list/leet_zh_1149/Solution.java)
     - [234. 回文链表 - Easy](./src/leetcode/list/zh_1150/Solution.java)
     - [328. 奇偶链表 - Medium_pending](./src/leetcode/list/leet_zh_1152/Solution.java)

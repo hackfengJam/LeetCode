@@ -1,10 +1,10 @@
-package leetcode.list.leet_zh_203;
+package leetcode.list.base;
 
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
-    ListNode(int x) {
+    public ListNode(int x) {
         val = x;
     }
 

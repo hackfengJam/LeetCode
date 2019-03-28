@@ -1,6 +1,8 @@
 package leetcode.list.leet_zh_1152;
 
 
+import leetcode.list.base.ListNode;
+
 class Solution {
     /*
      * 328.奇偶链表

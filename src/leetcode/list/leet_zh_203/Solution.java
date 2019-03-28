@@ -1,5 +1,7 @@
 package leetcode.list.leet_zh_203;
 
+import leetcode.list.base.ListNode;
+
 public class Solution {
     public ListNode removeElements(ListNode head, int val) {
 

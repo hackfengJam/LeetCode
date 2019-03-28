@@ -1,6 +1,8 @@
 package leetcode.list.leet_zh_1149;
 
 
+import leetcode.list.base.ListNode;
+
 public class Solution {
 
 
