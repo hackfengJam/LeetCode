@@ -13,7 +13,8 @@
 - 【动态规划】
     - [70. 爬楼梯 - Easy](./src/leetcode/dynamic_programming/zh_70_climbing_stairs/Solution.java)
     - [53. 最大子序和 - Easy](./src/leetcode/dynamic_programming/zh_53_maximum_subarray/Solution.java)
-- 【DFS】
+- 【回溯】
+    - [22. 括号生成 - Medium](./src/leetcode/backtrack/leet_zh_22/Solution.java)
     - [51. N 皇后 - Hard](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
     - [52. N 皇后 II - Hard](./src/leetcode/backtrack/zh_52_n_queens/Solution.java)
     - [547. 朋友圈 - Medium_DFS](./src/leetcode/union_find/leet_zh_547/SolutionDFS.java)
