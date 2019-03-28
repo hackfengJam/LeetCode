@@ -14,7 +14,8 @@
 - 【动态规划】
     - [70. 爬楼梯 - Easy](./src/leetcode/dynamic_programming/zh_70_climbing_stairs/Solution.java)
     - [53. 最大子序和 - Easy](./src/leetcode/dynamic_programming/zh_53_maximum_subarray/Solution.java)
-    - [300. 最长上升子序列 - Medium](./src/leetcode/dynamic_programming/leet_zh_300/Solution.java)
+    - [300. 最长上升子序列 - Medium_O(n^2)](./src/leetcode/dynamic_programming/leet_zh_300/Solution.java)
+    - [300. 最长上升子序列 - Medium_O(nlogN)_pending](./src/leetcode/dynamic_programming/leet_zh_300/Solution.java)
 - 【回溯】
     - [22. 括号生成 - Medium](./src/leetcode/backtrack/leet_zh_22/Solution.java)
     - [51. N 皇后 - Hard](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
