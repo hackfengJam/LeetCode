@@ -11,7 +11,6 @@
     - [136. 只出现一次的数字 - Easy](./src/leetcode/misc/leet_zh_1106/Solution.java)
     - [169. 求众数 - Easy](./src/leetcode/misc/leet_zh_1107/Solution.java)
     - [240. 搜索二维矩阵 II - Medium](./src/leetcode/misc/leet_zh_1108/Solution.java) - [题目链接](https://leetcode-cn.com/explore/interview/card/top-interview-quesitons-in-2018/261/before-you-start/1108/)
-    - [856. 括号的分数 - Medium](./src/leetcode/tree/leet_zh_856/Solution.java)
 - 【贪心算法】
     - [455. 分发饼干 - Easy](./src/leetcode/greedy/leet_zh_455/Solution.java)
 - 【动态规划】
@@ -26,7 +25,8 @@
     - [52. N 皇后 II - Hard](./src/leetcode/backtrack/zh_52_n_queens/Solution.java)
     - [547. 朋友圈 - Medium_DFS](./src/leetcode/union_find/leet_zh_547/SolutionDFS.java)
 - 【栈】
-    - [20. Valid Parentheses（合法/有效的括号）](./src/leetcode/stack/leet_en_20/Solution.java)
+    - [20. Valid Parentheses（合法/有效的括号）- Easy](./src/leetcode/stack/leet_en_20/Solution.java)
+    - [856. 括号的分数 - Medium](./src/leetcode/tree/leet_zh_856/Solution2.java)
 - 【哈希与映射】
     - [380. 常数时间插入、删除和获取随机元素- Medium_pending](./src/leetcode/hash_mapping/leet_zh_1164/RandomizedSet.java)
 - 【链表】
