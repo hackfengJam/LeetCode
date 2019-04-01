@@ -11,6 +11,7 @@
     - [136. 只出现一次的数字 - Easy](./src/leetcode/misc/leet_zh_1106/Solution.java)
     - [169. 求众数 - Easy](./src/leetcode/misc/leet_zh_1107/Solution.java)
     - [240. 搜索二维矩阵 II - Medium](./src/leetcode/misc/leet_zh_1108/Solution.java) - [题目链接](https://leetcode-cn.com/explore/interview/card/top-interview-quesitons-in-2018/261/before-you-start/1108/)
+    - [856. 括号的分数 - Medium](./src/leetcode/tree/leet_zh_856/Solution.java)
 - 【贪心算法】
     - [455. 分发饼干 - Easy](./src/leetcode/greedy/leet_zh_455/Solution.java)
 - 【动态规划】
@@ -42,6 +43,7 @@
     - [94. 二叉树中序遍历 - Medium_迭代](./src/leetcode/tree/leet_zh_94/Solution.java)
     - [145. 二叉树后续序遍历 - Medium_递归](./src/leetcode/tree/leet_zh_145/Solution.java)
     - [110. 平衡二叉树 - Easy](./src/leetcode/tree/leet_zh_110/Solution.java)
+    - [108. 将有序数组转换为二叉搜索树 - Easy](./src/leetcode/tree/leet_zh_108/Solution.java)
     - [113. 路径总和 - Easy](./src/leetcode/tree/leet_zh_112/Solution.java)
     - [112. 路径总和 II - Medium](./src/leetcode/tree/leet_zh_113/Solution.java)
     - [235. 二叉搜索树的最近公共祖先 - Medium](./src/leetcode/tree/leet_zh_235/Solution.java)
