@@ -20,11 +20,14 @@
     - [122. 买卖股票的最佳时机 II - Easy](./src/leetcode/dynamic_programming/leet_zh_122/Solution.java)
     - [300. 最长上升子序列 - Medium_O(n^2)](./src/leetcode/dynamic_programming/leet_zh_300/Solution.java)
     - [300. 最长上升子序列 - Medium_O(nlogN)_pending](./src/leetcode/dynamic_programming/leet_zh_300/Solution.java)
-- 【回溯】
+- 【DFS（深度优先遍历）】
     - [22. 括号生成 - Medium](./src/leetcode/backtrack/leet_zh_22/Solution.java)
     - [51. N 皇后 - Hard](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
     - [52. N 皇后 II - Hard](./src/leetcode/backtrack/zh_52_n_queens/Solution.java)
+    - [101. 对称二叉树 - Easy](./src/leetcode/backtrack/leet_zh_101/Solution.java)
     - [547. 朋友圈 - Medium_DFS](./src/leetcode/union_find/leet_zh_547/SolutionDFS.java)
+- 【BFS（广度优先遍历）】
+    - [101. 对称二叉树 - Easy](./src/leetcode/backtrack/leet_zh_22/Solution.java)
 - 【栈】
     - [20. Valid Parentheses（合法/有效的括号）- Easy](./src/leetcode/stack/leet_en_20/Solution.java)
     - [856. 括号的分数 - Medium](./src/leetcode/tree/leet_zh_856/Solution2.java)
