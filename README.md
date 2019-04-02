@@ -17,6 +17,7 @@
     - [70. 爬楼梯 - Easy](./src/leetcode/dynamic_programming/zh_70_climbing_stairs/Solution.java)
     - [53. 最大子序和 - Easy](./src/leetcode/dynamic_programming/zh_53_maximum_subarray/Solution.java)
     - [121. 买卖股票的最佳时机 - Easy](./src/leetcode/dynamic_programming/leet_zh_121/Solution.java)
+    - [122. 买卖股票的最佳时机 II - Easy](./src/leetcode/dynamic_programming/leet_zh_122/Solution.java)
     - [300. 最长上升子序列 - Medium_O(n^2)](./src/leetcode/dynamic_programming/leet_zh_300/Solution.java)
     - [300. 最长上升子序列 - Medium_O(nlogN)_pending](./src/leetcode/dynamic_programming/leet_zh_300/Solution.java)
 - 【回溯】
@@ -55,6 +56,7 @@
     - [208. 实现 Trie (前缀树) - Medium_数组](./src/leetcode/trie/leet_zh_208/Trie2.java)
     - [211. 添加与搜索单词 - 数据结构设计 - Medium_TreeMap](./src/leetcode/trie/leet_zh_211/WordDictionary.java)
     - [211. 添加与搜索单词 - 数据结构设计 - Medium_数组](./src/leetcode/trie/leet_zh_211/WordDictionary2.java)
+    - [421. 数组中两个数的最大异或值 - Medium](./src/leetcode/trie/leet_zh_421/Solution.java)
 - 【线段树】
     - [303. 区域和检索 - 数组不可变 - Easy](./src/leetcode/segment/leet_zh_303/NumArray.java)
     - [307. 区域和检索 - 数组可修改 - Medium](./src/leetcode/segment/leet_zh_307/NumArray.java)
