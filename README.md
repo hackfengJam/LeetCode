@@ -76,11 +76,11 @@
     - [最佳观光组合 - Medium](./src/weekly_contest/th_129/leet_zh_1022/Solution.java)
     - [子串能表示从 1 到 N 数字的二进制串 - Medium](./src/weekly_contest/th_129/leet_zh_1023/Solution.java)
 - 【第 130 周】[题目链接](https://leetcode-cn.com/contest/weekly-contest-130)
-    - [可被 5 整除的二进制前缀 - Easy](./src/weekly_contest/th_129/leet_zh_1020/Solution.java)
-    - [负二进制转换 - Medium](./src/weekly_contest/th_129/leet_zh_1021/Solution.java)
-    - [链表中的下一个更大节点 - Medium](./src/weekly_contest/th_129/leet_zh_1022/Solution.java)
-    - [飞地的数量 - Medium_DFS](./src/weekly_contest/th_129/leet_zh_1023/Solution.java)
-    - [飞地的数量 - Medium_Queue](./src/weekly_contest/th_129/leet_zh_1023/Solution.java)
+    - [可被 5 整除的二进制前缀 - Easy](./src/weekly_contest/th_130/leet_zh_1029/Solution.java)
+    - [负二进制转换 - Medium](./src/weekly_contest/th_130/leet_zh_1028/Solution.java)
+    - [链表中的下一个更大节点 - Medium](./src/weekly_contest/th_130/leet_zh_1030/Solution.java)
+    - [飞地的数量 - Medium_DFS](./src/weekly_contest/th_130/leet_zh_1031/Solution2.java)
+    - [飞地的数量 - Medium_Queue](./src/weekly_contest/th_130/leet_zh_1031/Solution.java)
 
 
 #### 注意
