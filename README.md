@@ -88,7 +88,7 @@
     - [删除最外层的括号 - Easy](./src/weekly_contest/th_131/leet_zh_5016/Solution.java)
     - [从根到叶的二进制数之和 - Medium](./src/weekly_contest/th_131/leet_zh_5017/Solution.java)
     - [驼峰式匹配 - Medium](./src/weekly_contest/th_131/leet_zh_5018/Solution.java)
-    - [视频拼接 - Medium](./src/weekly_contest/th_131/leet_zh_5019/Solution.java)
+    - [视频拼接 - Medium](./src/weekly_contest/th_131/leet_zh_5019/Solution3.java)
 
 
 #### 注意

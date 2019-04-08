@@ -2,7 +2,7 @@ package weekly_contest.th_131.leet_zh_5019;
 
 import java.util.Arrays;
 
-public class Solution {
+public class Solution2 {
     //    public int videoStitching(int[][] clips, int T) {
 //        Arrays.sort(clips, (a, b) -> b[1] - a[1] != 0 ? b[1] - a[1] : (b[1] - b[0]) - (a[1] - a[0]));
 //        int res = 0;
@@ -33,33 +33,40 @@ public class Solution {
 //        return res;
 //    }
     public int videoStitching(int[][] clips, int T) {
-//        Arrays.sort(clips, (a, b) -> b[1] - a[1] != 0 ? b[1] - a[1] : (b[1] - b[0]) - (a[1] - a[0]));
-        int[][] seg = new int[clips.length][2];
-        for (int i = 0; i < clips.length; i++) {
-            seg[i] = clips[i];
-        }
-        Arrays.sort(seg, (a, b) -> a[0] - b[0] != 0 ? a[0] - b[0] : (b[1] - b[0]) - (a[1] - a[0]));
-
+        Arrays.sort(clips, (a, b) -> b[1] - a[1] != 0 ? b[1] - a[1] : (b[1] - b[0]) - (a[1] - a[0]));
+//        Arrays.sort(clips, (a, b) -> b[0] - a[0] != 0 ? a[0] - b[0] : (b[1] - b[0]) - (a[1] - a[0]));
+        int[][] ans = new int[clips.length][2];
         int res = 0;
-        int now = 0;
-        int i = 0;
-        int ln = seg.length;
-        while (now < T && i < ln) {
-            int mx = now;
-            while (i < ln && seg[i][0] <= now) {
-                mx = Math.max(mx, seg[i][1]);
-                ++i;
+        int k = -1;
+        int start = 0;
+        for (int i = 0; i < clips.length; i++) {
+            int[] clip = clips[i];
+            if (k == -1) {
+                if (clip[1] < T)
+                    return -1;
+                start = clip[0];
+                ans[++k] = clip;
+                res++;
+            } else {
+                int[] clipPre = ans[k];
+                if (clipPre[0] > clip[1])
+                    return -1;
+                if (clip[0] < start) {
+                    start = clip[0];
+                    ans[++k] = clip;
+                    res++;
+                }
             }
-            if (mx == now) break;
-            now = mx;
-            ++res;
         }
-        if (now < T) return -1;
+
+        for (int i = 0; i < ans.length; i++) {
+            System.out.println(ans[i][0] + "," + ans[i][1]);
+        }
         return res;
     }
 
     public static void main(String[] args) {
-        Solution ss = new Solution();
+        Solution2 ss = new Solution2();
 //        int[][] clips = {
 //                {0, 2},
 //                {4, 6},
@@ -90,7 +97,7 @@ public class Solution {
                 {6, 9},
         };
         int T;
-        T = 9;
+        T = 7;
         System.out.println(ss.videoStitching(clips, T));
 
     }
