@@ -48,4 +48,35 @@ public class TreeNode {
         }
     }
 
+    private TreeNode treeToDoubleList(TreeNode cur, TreeNode pLastNodeInList) {
+        if (cur == null)
+            return pLastNodeInList;
+
+        // 左子树转换
+        if (cur.left != null)
+            pLastNodeInList = treeToDoubleList(cur.left, pLastNodeInList);
+
+        cur.left = pLastNodeInList;
+        if (pLastNodeInList != null)
+            pLastNodeInList.right = cur;
+
+        pLastNodeInList = cur;
+        // 右子树转换
+        if (cur.right != null)
+            pLastNodeInList = treeToDoubleList(cur.right, pLastNodeInList);
+
+        return pLastNodeInList;
+    }
+
+    public TreeNode treeToDoubleList(TreeNode node) {
+        // 二叉树转双向链表
+        TreeNode pLastNodeInList;
+        pLastNodeInList = treeToDoubleList(node, null);
+
+        TreeNode head = pLastNodeInList;
+        while (head != null && head.left != null)
+            head = head.left;
+        return head;
+    }
+
 }
