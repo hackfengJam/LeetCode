@@ -42,6 +42,7 @@
     - [160. 交叉链表 - Easy_优化](./src/leetcode/list/leet_zh_1149/Solution.java)
     - [206. 反转链表 - Easy](./src/leetcode/list/leet_zh_1149/Solution.java)
     - [234. 回文链表 - Easy](./src/leetcode/list/zh_1150/Solution.java)
+    - [237. 删除链表中的节点 - Easy](./src/leetcode/list/leet_zh_237/Solution.java)
     - [328. 奇偶链表 - Medium_pending](./src/leetcode/list/leet_zh_1152/Solution.java)
     - [203. 移除链表元素 - Medium_递归](./src/leetcode/list/leet_zh_203/Solution3.java)
     - [203. 移除链表元素 - Medium_虚拟头结点](./src/leetcode/list/leet_zh_203/Solution2.java)
