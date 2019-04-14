@@ -9,6 +9,11 @@ import java.util.Map;
 public class Solution {
 
     // TLE
+    /*
+     * 1027. Longest Arithmetic Sequence
+     * Runtime: 369 ms, faster than 100.00% of Java online submissions for Longest Arithmetic Sequence.
+     * Memory Usage: 174.7 MB, less than 100.00% of Java online submissions for Longest Arithmetic Sequence.
+     * */
     public int longestArithSeqLength(int[] A) {
         List<Map<Integer, Integer>> iList = new ArrayList<>();
         for (int i = 0; i < A.length; i++)
