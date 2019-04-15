@@ -50,6 +50,8 @@
 - 【树】
     - [94. 二叉树中序遍历 - Medium_迭代](./src/leetcode/tree/leet_zh_94/Solution.java)
     - [98. 验证二叉搜索树 - Medium](./src/leetcode/tree/leet_zh_98/Solution.java)
+    - [104. 二叉树的最大深度 - Easy_迭代](./src/leetcode/tree/leet_zh_104/Solution2.java)
+    - [104. 二叉树的最大深度 - Easy_递归](./src/leetcode/tree/leet_zh_104/Solution.java)
     - [108. 将有序数组转换为二叉搜索树 - Easy](./src/leetcode/tree/leet_zh_108/Solution.java)
     - [110. 平衡二叉树 - Easy](./src/leetcode/tree/leet_zh_110/Solution.java)
     - [112. 路径总和 II - Medium](./src/leetcode/tree/leet_zh_113/Solution.java)
