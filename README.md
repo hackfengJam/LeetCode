@@ -36,6 +36,7 @@
     - [20. Valid Parentheses（合法/有效的括号）- Easy](./src/leetcode/stack/leet_en_20/Solution.java)
     - [856. 括号的分数 - Medium](./src/leetcode/tree/leet_zh_856/Solution2.java)
 - 【哈希与映射】
+    - [1. 两数之和 - Easy](./src/leetcode/hash_mapping/leet_zh_1/Solution2.java)
     - [380. 常数时间插入、删除和获取随机元素- Medium_pending](./src/leetcode/hash_mapping/leet_zh_1164/RandomizedSet.java)
 - 【链表】
     - [19. 删除链表的倒数第N个节点 - Medium](./src/leetcode/list/leet_zh_19/Solution.java)
