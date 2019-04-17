@@ -34,6 +34,7 @@
     - [101. 对称二叉树 - Easy](./src/leetcode/backtrack/leet_zh_22/Solution.java)
 - 【栈】
     - [20. Valid Parentheses（合法/有效的括号）- Easy](./src/leetcode/stack/leet_en_20/Solution.java)
+    - [155. 最小栈 - Easy](./src/leetcode/stack/leet_en_20/Solution.java)
     - [856. 括号的分数 - Medium](./src/leetcode/tree/leet_zh_856/Solution2.java)
 - 【哈希与映射】
     - [1. 两数之和 - Easy](./src/leetcode/hash_mapping/leet_zh_1/Solution2.java)
