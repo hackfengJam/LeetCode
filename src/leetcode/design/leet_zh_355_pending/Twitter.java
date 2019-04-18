@@ -1,4 +1,4 @@
-package leetcode.design.leet_zh_355;
+package leetcode.design.leet_zh_355_pending;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -25,8 +25,6 @@ public class Twitter {
      */
     public void postTweet(int userId, int tweetId) {
         // TODO
-        tweet_seq.add(tweetId);
-        user_tweet_relate.put(userId, );
 
     }
 
@@ -43,7 +41,6 @@ public class Twitter {
      */
     public void follow(int followerId, int followeeId) {
         // TODO
-        user_fav_relate.put(followerId, followeeId);
     }
 
     /**
@@ -51,7 +48,6 @@ public class Twitter {
      */
     public void unfollow(int followerId, int followeeId) {
         // TODO
-        user_fav_relate.put(followerId, followeeId);
     }
 }
 
