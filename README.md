@@ -23,6 +23,7 @@
     - [122. 买卖股票的最佳时机 II - Easy](./src/leetcode/dynamic_programming/leet_zh_122/Solution.java)
     - [300. 最长上升子序列 - Medium_O(n^2)](./src/leetcode/dynamic_programming/leet_zh_300/Solution.java)
     - [300. 最长上升子序列 - Medium_O(nlogN)_pending](./src/leetcode/dynamic_programming/leet_zh_300/Solution.java)
+    - [343. 整数拆分 - Medium](./src/leetcode/dynamic_programming/leet_zh_343/Solution.java)
     - [838. 推多米诺 - Medium](./src/leetcode/dynamic_programming/leet_zh_838/Solution.java)
 - 【DFS（深度优先遍历）】
     - [22. 括号生成 - Medium](./src/leetcode/backtrack/leet_zh_22/Solution.java)
