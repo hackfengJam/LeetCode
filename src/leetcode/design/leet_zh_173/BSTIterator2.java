@@ -3,8 +3,6 @@ package leetcode.design.leet_zh_173;
 import leetcode.tree.base.TreeNode;
 import leetcode.tree.leet_zh_1167.Codec;
 
-import java.util.Stack;
-
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -14,39 +12,39 @@ import java.util.Stack;
  * TreeNode(int x) { val = x; }
  * }
  */
-public class BSTIterator {
+public class BSTIterator2 {
     /*
      *
      * 173. 二叉搜索树迭代器
-     * 利用二叉树的迭代方式的中序遍历，保存左子链，从而使用O(h)的内存。
      *
-     * 执行用时 : 134 ms, 在Binary Search Tree Iterator的Java提交中击败了81.31% 的用户
-     * 内存消耗 : 59.4 MB, 在Binary Search Tree Iterator的Java提交中击败了81.28% 的用户
+     * 空间复杂度O(1)，next()平均时间复杂度O(1)
+     * 执行用时 : 140 ms, 在Binary Search Tree Iterator的Java提交中击败了71.25% 的用户
+     * 内存消耗 : 67.9 MB, 在Binary Search Tree Iterator的Java提交中击败了5.07% 的用户
      * */
-    private Stack<TreeNode> stack;
+    private TreeNode node;
 
-    public BSTIterator(TreeNode root) {
-        stack = new Stack<>();
-        pushToStack(root);
-    }
-
-    private void pushToStack(TreeNode node) {
-        if (node == null)
-            return;
-        while (node != null) {
-            stack.push(node);
-            node = node.left;
-        }
+    public BSTIterator2(TreeNode root) {
+        node = root;
     }
 
     /**
      * @return the next smallest number
      */
     public int next() {
-        TreeNode node = stack.pop();
-        if (node != null) {
-            pushToStack(node.right);
-            return node.val;
+        while (node != null) {
+            if (node.left != null) {
+                TreeNode tmp = node.left;
+                while (tmp.right != null) tmp = tmp.right;
+                tmp.right = node;
+
+                tmp = node.left;
+                node.left = null;
+                node = tmp;
+            } else {
+                int next = node.val;
+                node = node.right;
+                return next;
+            }
         }
         return -1;
     }
@@ -55,7 +53,7 @@ public class BSTIterator {
      * @return whether we have a next smallest number
      */
     public boolean hasNext() {
-        return !stack.isEmpty();
+        return node != null;
     }
 
     public static void main(String[] args) {
@@ -63,7 +61,7 @@ public class BSTIterator {
         TreeNode root;
         root = codec.deserialize("[7,3,15,null,null,9,20]");
 
-        BSTIterator bstIterator = new BSTIterator(root);
+        BSTIterator2 bstIterator = new BSTIterator2(root);
         while (bstIterator.hasNext()) {
             System.out.println(bstIterator.next());
         }
