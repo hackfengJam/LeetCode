@@ -110,6 +110,11 @@
     - [最长等差数列 - Medium_pending_TLE](./src/weekly_contest/th_132/leet_zh_5030/Solution.java)
     - [从先序遍历还原二叉树 - Hard](./src/weekly_contest/th_132/leet_zh_5031/Solution.java)
 
+#### 牛客网
+
+- 【剑指Offer】
+    - [重建二叉树](./src/nowcoder/offer/reConstructBinaryTree/Solution.java)
+
 
 #### 注意
 
