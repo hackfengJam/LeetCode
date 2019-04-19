@@ -113,7 +113,11 @@
 #### 牛客网
 
 - 【剑指Offer】
+    - [用两个栈实现队列](./src/nowcoder/offer/stackConstructQueue/Solution.java)
     - [重建二叉树](./src/nowcoder/offer/reConstructBinaryTree/Solution.java)
+    - [跳台阶](./src/nowcoder/offer/JumpFloor/Solution.java)
+    - [变态跳台阶 - 动态规划](./src/nowcoder/offer/JumpFloorII/Solution.java)
+    - [变态跳台阶 - 数学](./src/nowcoder/offer/JumpFloorII/Solution2.java)
 
 
 #### 注意
