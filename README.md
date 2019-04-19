@@ -82,6 +82,8 @@
 - 【设计】
     - [173. 二叉搜索树迭代器 - Medium_辅助栈](./src/leetcode/design/leet_zh_173/BSTIterator.java)
     - [173. 二叉搜索树迭代器 - Medium_空间复杂度O(1)，next()平均时间复杂度O(1)](./src/leetcode/design/leet_zh_173/BSTIterator2.java)
+    - [225. 用队列实现栈](./src/leetcode/design/leet_zh_225/MyStack.java)
+    - [232. 用栈实现队列](./src/leetcode/design/leet_zh_232/MyQueue.java)
 
 #### LeetCode 周赛
 
