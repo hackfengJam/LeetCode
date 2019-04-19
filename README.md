@@ -108,7 +108,7 @@
     - [除数博弈 - Easy](./src/weekly_contest/th_132/leet_zh_5024/Solution.java)
     - [节点与其祖先之间的最大差值 - Medium](./src/weekly_contest/th_132/leet_zh_5025/Solution.java)
     - [最长等差数列 - Medium_pending_TLE](./src/weekly_contest/th_132/leet_zh_5030/Solution.java)
-    - [从先序遍历还原二叉树 - Hard](./src/weekly_contest/th_132/leet_zh_5031/Solution3.java)
+    - [从先序遍历还原二叉树 - Hard](./src/weekly_contest/th_132/leet_zh_5031/Solution.java)
 
 
 #### 注意
