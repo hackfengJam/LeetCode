@@ -110,6 +110,12 @@
     - [最长等差数列 - Medium_pending_TLE](./src/weekly_contest/th_132/leet_zh_5030/Solution.java)
     - [从先序遍历还原二叉树 - Hard](./src/weekly_contest/th_132/leet_zh_5031/Solution.java)
 
+- 【第 133 周】[题目链接](https://leetcode-cn.com/contest/weekly-contest-133)
+    - [1029. 两地调度 - Easy](./src/weekly_contest/th_133/leet_zh_1029/Solution.java)
+    - [1030. 距离顺序排列矩阵单元格 - Easy](./src/weekly_contest/th_133/leet_zh_1030/Solution.java)
+    - [1031. 两个非重叠子数组的最大和 - Medium](./src/weekly_contest/th_133/leet_zh_1031/Solution.java)
+    - [1032. 字符流 - Hard](./src/weekly_contest/th_133/leet_zh_1032/StreamChecker.java)
+
 #### 牛客网
 
 - 【剑指Offer】
