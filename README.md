@@ -119,6 +119,12 @@
     - [1031. 两个非重叠子数组的最大和 - Medium](./src/weekly_contest/th_133/leet_zh_1031/Solution.java)
     - [1032. 字符流 - Hard](./src/weekly_contest/th_133/leet_zh_1032/StreamChecker.java)
 
+- 【第 134 周】[题目链接](https://leetcode-cn.com/contest/weekly-contest-134)
+    - [5039. 移动石子直到连续 - Easy](./src/weekly_contest/th_134/leet_zh_5039/Solution.java)
+    - [5040. 边框着色 - Medium](./src/weekly_contest/th_134/leet_zh_5040/Solution.java)
+    - [5041. 不相交的线 - Easy](./src/weekly_contest/th_134/leet_zh_5041/Solution.java)
+    - [5042. 逃离大迷宫 - Hard](./src/weekly_contest/th_134/leet_zh_5042/Solution.java)
+
 #### 牛客网
 
 - 【剑指Offer】
