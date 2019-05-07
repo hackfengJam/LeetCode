@@ -124,7 +124,13 @@
     - [5039. 移动石子直到连续 - Easy](./src/weekly_contest/th_134/leet_zh_5039/Solution.java)
     - [5040. 边框着色 - Medium](./src/weekly_contest/th_134/leet_zh_5040/Solution.java)
     - [5041. 不相交的线 - Easy](./src/weekly_contest/th_134/leet_zh_5041/Solution.java)
-    - [5042. 逃离大迷宫 - Hard](./src/weekly_contest/th_134/leet_zh_5042/Solution.java)
+    - [5042. 逃离大迷宫_pending - Hard](./src/weekly_contest/th_134/leet_zh_5042/Solution.java)
+
+- 【第 135 周】[题目链接](https://leetcode-cn.com/contest/weekly-contest-135)
+    - [5051. 有效的回旋镖 - Easy](./src/weekly_contest/th_135/leet_zh_5051/Solution.java)
+    - [5050. 从二叉搜索树到更大和树 - Medium](./src/weekly_contest/th_135/leet_zh_5050/Solution.java)
+    - [5047. 多边形三角剖分的最低得分_pending - Medium](./src/weekly_contest/th_135/leet_zh_5047/Solution.java)
+    - [5049. 移动石子直到连续 II_pending - Medium](./src/weekly_contest/th_135/leet_zh_5049/Solution.java)
 
 #### 牛客网
 
