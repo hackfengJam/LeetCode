@@ -22,6 +22,7 @@
     - [53. 最大子序和 - Easy](./src/leetcode/dynamic_programming/zh_53_maximum_subarray/Solution.java)
     - [121. 买卖股票的最佳时机 - Easy](./src/leetcode/dynamic_programming/leet_zh_121/Solution.java)
     - [122. 买卖股票的最佳时机 II - Easy](./src/leetcode/dynamic_programming/leet_zh_122/Solution.java)
+    - [279. 完全平方数 - Medium](./src/leetcode/dynamic_programming/leet_zh_279/Solution.java)
     - [300. 最长上升子序列 - Medium_O(n^2)](./src/leetcode/dynamic_programming/leet_zh_300/Solution.java)
     - [300. 最长上升子序列 - Medium_O(nlogN)_pending](./src/leetcode/dynamic_programming/leet_zh_300/Solution.java)
     - [343. 整数拆分 - Medium](./src/leetcode/dynamic_programming/leet_zh_343/Solution.java)
