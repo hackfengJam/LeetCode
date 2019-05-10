@@ -26,6 +26,7 @@
     - [279. 完全平方数 - Medium](./src/leetcode/dynamic_programming/leet_zh_279/Solution.java)
     - [300. 最长上升子序列 - Medium_O(n^2)](./src/leetcode/dynamic_programming/leet_zh_300/Solution.java)
     - [300. 最长上升子序列 - Medium_O(nlogN)_pending](./src/leetcode/dynamic_programming/leet_zh_300/Solution.java)
+    - [322. 零钱兑换 - Medium](./src/leetcode/dynamic_programming/leet_zh_322/Solution.java)
     - [343. 整数拆分 - Medium](./src/leetcode/dynamic_programming/leet_zh_343/Solution.java)
     - [395. 至少有K个重复字符的最长子串 - Medium](./src/leetcode/dynamic_programming/leet_zh_395/Solution.java)
     - [838. 推多米诺 - Medium](./src/leetcode/dynamic_programming/leet_zh_838/Solution.java)
