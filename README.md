@@ -48,8 +48,8 @@
 - 【链表】
     - [2. 两数相加 - Medium](./src/leetcode/list/leet_zh_2/Solution.java)
     - [19. 删除链表的倒数第N个节点 - Medium](./src/leetcode/list/leet_zh_19/Solution.java)
-    - [160. 交叉链表 - Easy](./src/leetcode/list/leet_zh_1149/Solution.java)
-    - [160. 交叉链表 - Easy_优化](./src/leetcode/list/leet_zh_1149/Solution.java)
+    - [160. 交叉链表 - Easy](./src/leetcode/list/leet_zh_160/Solution.java)
+    - [160. 交叉链表 - Easy_优化](./src/leetcode/list/leet_zh_160/Solution2.java)
     - [203. 移除链表元素 - Medium_递归](./src/leetcode/list/leet_zh_203/Solution3.java)
     - [203. 移除链表元素 - Medium_虚拟头结点](./src/leetcode/list/leet_zh_203/Solution2.java)
     - [206. 反转链表 - Easy](./src/leetcode/list/leet_zh_1149/Solution.java)
