@@ -75,7 +75,7 @@
     - [450. 删除二叉搜索树中的节点](./src/leetcode/tree/leet_en_450/Solution.java)
     - [530. 二叉搜索树的最小绝对差 - Easy_treeToList](./src/leetcode/tree/leet_zh_530/Solution.java)
     - [530. 二叉搜索树的最小绝对差 - Easy_treeToDoubleList](./src/leetcode/tree/leet_zh_530/Solution2.java)
-    - [814. 二叉树剪枝 - Medium](./src/leetcode/tree/leet_en_450/Solution.java)
+    - [814. 二叉树剪枝 - Medium](./src/leetcode/tree/leet_zh_814/Solution.java)
 - 【字典树】
     - [208. 实现 Trie (前缀树) - Medium_TreeMap](./src/leetcode/trie/leet_zh_208/Trie.java)
     - [208. 实现 Trie (前缀树) - Medium_数组](./src/leetcode/trie/leet_zh_208/Trie2.java)
