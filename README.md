@@ -106,6 +106,7 @@
     - [可被 K 整除的最小整数 - Medium](./src/weekly_contest/th_129/leet_zh_1021/Solution.java)
     - [最佳观光组合 - Medium](./src/weekly_contest/th_129/leet_zh_1022/Solution.java)
     - [子串能表示从 1 到 N 数字的二进制串 - Medium](./src/weekly_contest/th_129/leet_zh_1023/Solution.java)
+
 - 【第 130 周】[题目链接](https://leetcode-cn.com/contest/weekly-contest-130)
     - [可被 5 整除的二进制前缀 - Easy](./src/weekly_contest/th_130/leet_zh_1029/Solution.java)
     - [负二进制转换 - Medium](./src/weekly_contest/th_130/leet_zh_1028/Solution.java)
@@ -141,6 +142,12 @@
     - [5050. 从二叉搜索树到更大和树 - Medium](./src/weekly_contest/th_135/leet_zh_5050/Solution.java)
     - [5047. 多边形三角剖分的最低得分_pending - Medium](./src/weekly_contest/th_135/leet_zh_5047/Solution.java)
     - [5049. 移动石子直到连续 II_pending - Medium](./src/weekly_contest/th_135/leet_zh_5049/Solution.java)
+
+- 【第 136 周】[题目链接](https://leetcode-cn.com/contest/weekly-contest-136)
+    - [5055. 困于环中的机器人 - Easy](./src/weekly_contest/th_136/leet_zh_5055/Solution.java)
+    - [5056. 不邻接植花 - Easy](./src/weekly_contest/th_136/leet_zh_5056/Solution.java)
+    - [5057. 分隔数组以得到最大和 - Medium](./src/weekly_contest/th_136/leet_zh_5057/Solution.java)
+    - [5058. 最长重复子串 - Hard](./src/weekly_contest/th_136/leet_zh_5058/Solution.java)
 
 #### 牛客网
 
