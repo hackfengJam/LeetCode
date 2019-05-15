@@ -48,6 +48,7 @@
 - 【链表】
     - [2. 两数相加 - Medium](./src/leetcode/list/leet_zh_2/Solution.java)
     - [19. 删除链表的倒数第N个节点 - Medium](./src/leetcode/list/leet_zh_19/Solution.java)
+    - [141. 环形链表 - Easy](./src/leetcode/list/leet_zh_141/Solution.java)
     - [148. 排序链表 - Medium](./src/leetcode/list/leet_zh_148/Solution.java)
     - [148. 排序链表 - Medium_优化](./src/leetcode/list/leet_zh_148/Solution2.java)
     - [160. 交叉链表 - Easy](./src/leetcode/list/leet_zh_160/Solution.java)
