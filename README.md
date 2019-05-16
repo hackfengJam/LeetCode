@@ -48,6 +48,7 @@
 - 【链表】
     - [2. 两数相加 - Medium](./src/leetcode/list/leet_zh_2/Solution.java)
     - [19. 删除链表的倒数第N个节点 - Medium](./src/leetcode/list/leet_zh_19/Solution.java)
+    - [138. 复制带随机指针的链表 - Medium](./src/leetcode/list/leet_zh_138/Solution.java)
     - [141. 环形链表 - Easy](./src/leetcode/list/leet_zh_141/Solution.java)
     - [148. 排序链表 - Medium](./src/leetcode/list/leet_zh_148/Solution.java)
     - [148. 排序链表 - Medium_优化](./src/leetcode/list/leet_zh_148/Solution2.java)
@@ -94,6 +95,7 @@
     - [547. 朋友圈 - Medium_DFS](./src/leetcode/union_find/leet_zh_547/SolutionDFS.java)
 - 【图论】
     - [127. 单词接龙 - Medium](./src/leetcode/graph_theory/leet_zh_127/Solution.java)
+    - [133. 克隆图 - Medium](./src/leetcode/graph_theory/leet_zh_133/Solution.java)
     - [200. 岛屿的个数 - Medium](./src/leetcode/graph_theory/leet_zh_200/Solution.java)
     - [207. 课程表 - Medium](./src/leetcode/graph_theory/leet_zh_207/Solution2.java)
 - 【设计】
