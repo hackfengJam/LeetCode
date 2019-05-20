@@ -9,8 +9,8 @@ public class Solution {
      *
      * 拓扑排序
      *
-     * 执行用时 : 22 ms, 在Course Schedule II的Java提交中击败了50.21% 的用户
-     * 内存消耗 : 45.6 MB, 在Course Schedule II的Java提交中击败了76.92% 的用户
+     * 执行用时 : 21 ms, 在Course Schedule II的Java提交中击败了51.89% 的用户
+     * 内存消耗 : 45.9 MB, 在Course Schedule II的Java提交中击败了75.90% 的用户
 
     时间复杂度：O(n + e)，其中n为图中的结点数目，e为图中的边的数目
 
@@ -62,6 +62,8 @@ public class Solution {
                 if (inDegree[child] == 0) {
                     deque.offer(child);
                 }
+                if (inDegree[child] < 0)
+                    return new int[]{};
             }
         }
 
