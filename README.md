@@ -8,7 +8,8 @@
 
 - 【杂项】
     - [50. Pow(x, n) - Medium](./src/leetcode/misc/leet_zh_1106/Solution.java)
-    - [136. 只出现一次的数字 - Easy](./src/leetcode/misc/leet_zh_1106/Solution.java)
+    - [136. 只出现一次的数字 - Easy](./src/leetcode/misc/leet_zh_136/Solution.java)
+    - [137. 只出现一次的数字 II - Medium](./src/leetcode/misc/leet_zh_137/Solution.java)
     - [169. 求众数 - Easy](./src/leetcode/misc/leet_zh_1107/Solution.java)
     - [172. 阶乘后的零 - Easy](./src/leetcode/misc/leet_zh_172/Solution.java)
     - [215. 数组中的第K个最大元素 - Medium](./src/leetcode/misc/leet_zh_215/Solution.java)
