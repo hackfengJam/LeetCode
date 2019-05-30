@@ -14,6 +14,7 @@
     - [169. 求众数 - Easy - O(n) 摩尔根投票法 ](./src/leetcode/misc/leet_zh_169/Solution.java)
     - [172. 阶乘后的零 - Easy](./src/leetcode/misc/leet_zh_172/Solution.java)
     - [215. 数组中的第K个最大元素 - Medium](./src/leetcode/misc/leet_zh_215/Solution.java)
+    - [229. 求众数 II - Medium](./src/leetcode/misc/leet_zh_229/Solution.java)
     - [240. 搜索二维矩阵 II - Medium](./src/leetcode/misc/leet_zh_1108/Solution.java) - [题目链接](https://leetcode-cn.com/explore/interview/card/top-interview-quesitons-in-2018/261/before-you-start/1108/)
     - [470. 用 Rand7() 实现 Rand10() - Medium](./src/leetcode/misc/leet_zh_470/Solution.java)
     - [729. 我的日程安排表 I - Medium](./src/leetcode/misc/leet_zh_729/MyCalendar.java)
