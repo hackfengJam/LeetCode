@@ -56,9 +56,46 @@ public class Base {
         return r;
     }
 
+    private int linear_exgcd(int a, int b, int c) {
+        int r = exgcd(a, b);
+        if (c % r != 0) {
+            // no solution
+            throw new IllegalArgumentException("no solution");
+        }
+
+        int k = c / r;
+        x = x * k;
+        y = y * k;
+
+        return r;
+    }
+
+
+    private int mod_linear_exgcd(int a, int b, int n) {
+        int d = exgcd(a, n);
+        if (b % d != 0) {
+            // no solution
+            throw new IllegalArgumentException("no solution");
+        }
+
+        int x0 = x * (b / d) % n;
+        // 特解
+        // 通解：
+        // [(x0+i*(n//d))%n for i in range(d)]
+        x = x0;
+        return d;
+    }
+
+
     public static void main(String[] args) {
         Base base = new Base();
-        System.out.println(base.exgcd(5, 3));
+//        System.out.println(base.exgcd(5, 3));
+//        System.out.println(base.x + ":" + base.y);
+//        System.out.println(base.linear_exgcd(5, 3, 4));
+//        System.out.println(base.x + ":" + base.y);
+//        System.out.println(base.mod_linear_exgcd(5, 3, 4));
+//        System.out.println(base.x + ":" + base.y);
+        System.out.println(base.mod_linear_exgcd(5, 3, 4));
         System.out.println(base.x + ":" + base.y);
     }
 
