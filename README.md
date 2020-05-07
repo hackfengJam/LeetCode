@@ -113,6 +113,10 @@
     - [225. 用队列实现栈](./src/leetcode/design/leet_zh_225/MyStack.java)
     - [232. 用栈实现队列](./src/leetcode/design/leet_zh_232/MyQueue.java)
 
+- 【专项】
+    - 【ByteDance】
+        - [无重复字符的最长子串](./src/leetcode/specialized/bytedance/longest_substring_without_repeating_characters/Solution.java)
+
 #### LeetCode 周赛
 
 - 【第 129 周】[题目链接](https://leetcode-cn.com/contest/weekly-contest-129)
