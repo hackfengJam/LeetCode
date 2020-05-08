@@ -116,9 +116,12 @@
 - 【专项】
     - 【ByteDance】
         - 【字符串】
-            - [无重复字符的最长子串](src/leetcode/specialized/bytedance/string/longest_substring_without_repeating_characters/Solution.java)
+            - [无重复字符的最长子串](./src/leetcode/specialized/bytedance/string/longest_substring_without_repeating_characters/Solution.java)
+            - [最长公共前缀](./src/leetcode/specialized/bytedance/string/longest_common_prefix/Solution.java)
         - 【链表与树】
             - [合并两个有序链表](./src/leetcode/specialized/bytedance/linked_list_and_tree/merge_two_sorted_lists/Solution.java)
+        - 【动态或贪心】
+            - [买卖股票的最佳时机](./src/leetcode/specialized/bytedance/dynamic_programming_or_greedy/best_time_to_buy_and_sell_stock/Solution.java)
 
 #### LeetCode 周赛
 
