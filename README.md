@@ -115,7 +115,10 @@
 
 - 【专项】
     - 【ByteDance】
-        - [无重复字符的最长子串](./src/leetcode/specialized/bytedance/longest_substring_without_repeating_characters/Solution.java)
+        - 【字符串】
+            - [无重复字符的最长子串](src/leetcode/specialized/bytedance/string/longest_substring_without_repeating_characters/Solution.java)
+        - 【链表与树】
+            - [合并两个有序链表](./src/leetcode/specialized/bytedance/linked_list_and_tree/merge_two_sorted_lists/Solution.java)
 
 #### LeetCode 周赛
 

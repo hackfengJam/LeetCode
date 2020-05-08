@@ -1,4 +1,4 @@
-package leetcode.specialized.bytedance.longest_substring_without_repeating_characters;
+package leetcode.specialized.bytedance.string.longest_substring_without_repeating_characters;
 
 import java.util.HashMap;
 import java.util.Map;
