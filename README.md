@@ -21,6 +21,8 @@
     - [731. 我的日程安排表 II - Medium](./src/leetcode/misc/leet_zh_731/MyCalendarTwo.java)
     - [732. 我的日程安排表 III - Hard](./src/leetcode/misc/leet_zh_732/MyCalendarThree.java)
 - 【字符串】
+    - [76. 最小覆盖子串](src/leetcode/string/leet_zh_76/Solution.java)
+    - [438. 找到字符串中所有字母异位词](src/leetcode/string/leet_zh_438/Solution.java)
     - [无重复字符的最长子串](src/leetcode_specialized/bytedance/string/longest_substring_without_repeating_characters/Solution.java)
     - [最长公共前缀](src/leetcode_specialized/bytedance/string/longest_common_prefix/Solution.java)
 - 【贪心算法】
