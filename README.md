@@ -20,6 +20,9 @@
     - [729. 我的日程安排表 I - Medium](./src/leetcode/misc/leet_zh_729/MyCalendar.java)
     - [731. 我的日程安排表 II - Medium](./src/leetcode/misc/leet_zh_731/MyCalendarTwo.java)
     - [732. 我的日程安排表 III - Hard](./src/leetcode/misc/leet_zh_732/MyCalendarThree.java)
+- 【字符串】
+    - [无重复字符的最长子串](src/leetcode_specialized/bytedance/string/longest_substring_without_repeating_characters/Solution.java)
+    - [最长公共前缀](src/leetcode_specialized/bytedance/string/longest_common_prefix/Solution.java)
 - 【贪心算法】
     - [455. 分发饼干 - Easy](./src/leetcode/greedy/leet_zh_455/Solution.java)
 - 【动态规划】
@@ -116,12 +119,12 @@
 - 【专项】
     - 【ByteDance】
         - 【字符串】
-            - [无重复字符的最长子串](./src/leetcode/specialized/bytedance/string/longest_substring_without_repeating_characters/Solution.java)
-            - [最长公共前缀](./src/leetcode/specialized/bytedance/string/longest_common_prefix/Solution.java)
+            - [无重复字符的最长子串](src/leetcode_specialized/bytedance/string/longest_substring_without_repeating_characters/Solution.java)
+            - [最长公共前缀](src/leetcode_specialized/bytedance/string/longest_common_prefix/Solution.java)
         - 【链表与树】
-            - [合并两个有序链表](./src/leetcode/specialized/bytedance/linked_list_and_tree/merge_two_sorted_lists/Solution.java)
+            - [合并两个有序链表](src/leetcode_specialized/bytedance/linked_list_and_tree/merge_two_sorted_lists/Solution.java)
         - 【动态或贪心】
-            - [买卖股票的最佳时机](./src/leetcode/specialized/bytedance/dynamic_programming_or_greedy/best_time_to_buy_and_sell_stock/Solution.java)
+            - [买卖股票的最佳时机](src/leetcode_specialized/bytedance/dynamic_programming_or_greedy/best_time_to_buy_and_sell_stock/Solution.java)
 
 #### LeetCode 周赛
 

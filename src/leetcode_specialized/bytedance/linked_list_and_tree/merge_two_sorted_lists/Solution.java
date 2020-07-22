@@ -1,4 +1,4 @@
-package leetcode.specialized.bytedance.linked_list_and_tree.merge_two_sorted_lists;
+package leetcode_specialized.bytedance.linked_list_and_tree.merge_two_sorted_lists;
 
 import leetcode.list.base.ListNode;
 

@@ -1,4 +1,4 @@
-package leetcode.specialized.bytedance.string.longest_common_prefix;
+package leetcode_specialized.bytedance.string.longest_common_prefix;
 
 public class Solution {
     /*

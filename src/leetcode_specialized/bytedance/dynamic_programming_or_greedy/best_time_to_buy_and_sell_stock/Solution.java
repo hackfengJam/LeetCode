@@ -1,4 +1,4 @@
-package leetcode.specialized.bytedance.dynamic_programming_or_greedy.best_time_to_buy_and_sell_stock;
+package leetcode_specialized.bytedance.dynamic_programming_or_greedy.best_time_to_buy_and_sell_stock;
 
 
 public class Solution {
