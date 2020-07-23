@@ -29,6 +29,7 @@
 - 【贪心算法】
     - [455. 分发饼干 - Easy](./src/leetcode/greedy/leet_zh_455/Solution.java)
 - 【动态规划】
+    - [64. 最小路径和 - Medium](src/leetcode/dynamic_programming/leet_zh_64/Solution.java)
     - [70. 爬楼梯 - Easy](./src/leetcode/dynamic_programming/zh_70_climbing_stairs/Solution.java)
     - [53. 最大子序和 - Easy](./src/leetcode/dynamic_programming/zh_53_maximum_subarray/Solution.java)
     - [121. 买卖股票的最佳时机 - Easy](./src/leetcode/dynamic_programming/leet_zh_121/Solution.java)
