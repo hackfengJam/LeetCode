@@ -1,5 +1,7 @@
 package leetcode.dynamic_programming.leet_zh_188;
 
+import com.sun.org.apache.bcel.internal.generic.RET;
+
 public class Solution {
     /*
      * Title: 188. 买卖股票的最佳时机 IV
@@ -23,15 +25,71 @@ public class Solution {
         解释: 在第 2 天 (股票价格 = 2) 的时候买入，在第 3 天 (股票价格 = 6) 的时候卖出, 这笔交易所能获得利润 = 6-2 = 4 。
              随后，在第 5 天 (股票价格 = 0) 的时候买入，在第 6 天 (股票价格 = 3) 的时候卖出, 这笔交易所能获得利润 = 3-0 = 3 。
 
+     * dp[i][k][0] = max(dp[i-1][k][1] + prices[i], dp[i-1][k][0])
+     * dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
      *
-     * 执行用时 :  ms
-     * 内存消耗 :  MB
+     * base case:
+     * dp[0][k][0] = 0
+     * dp[0][k][1] = - prices[0]
+     * dp[i][0][0] = 0
+     * dp[i][0][1] = -inf
+     *
+     * 执行用时 : 11 ms
+     * 内存消耗 : 41.9 MB
      * */
-    public int maxProfit(int k, int[] prices) {
-        return 0;
+    public int maxProfit_k_inf(int[] prices) {
+        if (prices.length == 0) {
+            return 0;
+        }
+        int[][] dp = new int[prices.length][2];
+
+        // base case
+        dp[0][0] = 0;
+        dp[0][1] = -prices[0];
+
+        for (int i = 1; i < prices.length; i++) {
+            dp[i][0] = Math.max(dp[i - 1][1] + prices[i], dp[i - 1][0]);
+            dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] - prices[i]);
+        }
+
+        return dp[prices.length - 1][0];
+    }
+
+    public int maxProfit(int max_k, int[] prices) {
+        if (prices.length == 0) {
+            return 0;
+        }
+        if (max_k > prices.length / 2) {
+            return maxProfit_k_inf(prices);
+        }
+        int[][][] dp = new int[prices.length][max_k + 1][2];
+
+        // base case
+        for (int i = 0; i < prices.length; i++) {
+            dp[i][0][0] = 0;
+            dp[i][0][1] = Integer.MIN_VALUE;
+        }
+        for (int i = 1; i <= max_k; i++) {
+            dp[0][i][0] = 0;
+            dp[0][i][1] = -prices[0];
+        }
+
+        for (int i = 1; i < prices.length; i++) {
+            for (int k = 1; k <= max_k; k++) {
+                dp[i][k][0] = Math.max(dp[i - 1][k][1] + prices[i], dp[i - 1][k][0]);
+                dp[i][k][1] = Math.max(dp[i - 1][k][1], dp[i - 1][k - 1][0] - prices[i]);
+            }
+        }
+
+        return dp[prices.length - 1][max_k][0];
     }
 
     public static void main(String[] args) {
         Solution ss = new Solution();
+        int[] prices = new int[]{1, 2, 3};
+        prices = new int[]{2, 4, 1};
+        System.out.println(ss.maxProfit(2, prices));
+        prices = new int[]{3, 2, 6, 5, 0, 3};
+        System.out.println(ss.maxProfit(2, prices));
     }
 }
