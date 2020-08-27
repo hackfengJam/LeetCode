@@ -18,15 +18,43 @@ public class Solution {
         输出: 3
         解释: 对应的交易状态为: [买入, 卖出, 冷冻期, 买入, 卖出]
 
+     * dp[i][k][0] = Math.max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
+     * dp[i][k][1] = Math.max(dp[i-1][k-1][0] - prices[i], dp[i-1][k][1])
      *
-     * 执行用时 :  ms
-     * 内存消耗 :  MB
+     * dp[0][k][0] = 0
+     * dp[0][k][1] = -prices[0]
+     * dp[i][0][0] = 0
+     * dp[i][0][1] = -inf
+     *
+     *
+     * dp[i][0] = Math.max(dp[i-1][0], dp[i-1][1] + prices[i])
+     * dp[i][1] = Math.max(dp[i-2][0] - prices[i], dp[i-1][1])
+     * dp[0][0] = 0
+     * dp[0][1] = -prices[0]
+     *
+     *
+     * 执行用时 :  1 ms
+     * 内存消耗 :  37.8 MB
      * */
     public int maxProfit(int[] prices) {
-        return 0;
+        if (prices.length == 0 || prices.length == 1) {
+            return 0;
+        }
+        int[][] dp = new int[prices.length][2];
+        dp[0][0] = 0;
+        dp[0][1] = -prices[0];
+        dp[1][0] = Math.max(0, prices[1] - prices[0]);
+        dp[1][1] = Math.max(-prices[0], -prices[1]);
+        for (int i = 2; i < prices.length; i++) {
+            dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][1] + prices[i]);
+            dp[i][1] = Math.max(dp[i - 2][0] - prices[i], dp[i - 1][1]);
+        }
+        return dp[prices.length - 1][0];
     }
 
     public static void main(String[] args) {
         Solution ss = new Solution();
+        int[] prices = new int[]{1, 2, 3, 0, 2};
+        System.out.println(ss.maxProfit(prices));
     }
 }
