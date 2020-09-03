@@ -53,7 +53,8 @@
     - [838. 推多米诺 - Medium](./src/leetcode/dynamic_programming/leet_zh_838/Solution.java)
 - 【DFS（深度优先遍历）】
     - [22. 括号生成 - Medium](./src/leetcode/backtrack/leet_zh_22/Solution.java)
-    - [51. N 皇后 - Hard](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
+    - [51. N 皇后 - Hard_递归](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
+    - [51. N 皇后 - Hard_迭代](./src/leetcode/backtrack/zh_51_n_queens/Solution2.java)
     - [52. N 皇后 II - Hard](./src/leetcode/backtrack/zh_52_n_queens/Solution.java)
     - [101. 对称二叉树 - Easy](./src/leetcode/backtrack/leet_zh_101/Solution.java)
     - [547. 朋友圈 - Medium_DFS](./src/leetcode/union_find/leet_zh_547/SolutionDFS.java)
