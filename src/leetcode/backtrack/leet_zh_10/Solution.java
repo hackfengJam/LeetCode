@@ -1,4 +1,4 @@
-package leetcode.dynamic_programming.leet_zh_10;
+package leetcode.backtrack.leet_zh_10;
 
 public class Solution {
     /*
@@ -54,16 +54,34 @@ public class Solution {
      * 执行用时 : 32   ms
      * 内存消耗 : 38.3 MB
      * */
-    public boolean isMatch(String s, String p) {
 
+    public boolean isMatch(String s, String p) {
+        return isMatch(s, 0, p, 0);
+    }
+
+    private boolean isMatch(String s, int i, String p, int j) {
+        if (j == p.length())
+            return i == s.length();
+        if (j == p.length() - 1 || p.charAt(j + 1) != '*') {
+            return (i != s.length() && (p.charAt(j) == '.' || p.charAt(j) == s.charAt(i))) && isMatch(s, i + 1, p, j + 1);
+        }
+        do {
+            if (isMatch(s, i, p, j + 2)) {
+                return true;
+            }
+            i++;
+        } while (i <= s.length() && (s.charAt(i - 1) == p.charAt(j) || p.charAt(j) == '.'));
         return false;
     }
 
     public static void main(String[] args) {
         Solution ss = new Solution();
         String[][] testCase = {
-                {"aa", "a"},
-                {"bb", "b"},
+//                {"aa", "a"},
+                {"aa", "a*"},
+//                {"ab", ".*"},
+                {"aab", "c*a*b"},
+//                {"mississippi", "mis*is*p*."},
         };
         for (int i = 0; i < testCase.length; i++) {
             System.out.println(ss.isMatch(testCase[i][0], testCase[i][1]));
