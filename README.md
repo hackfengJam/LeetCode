@@ -97,6 +97,7 @@
     - [199. 二叉树的右视图 - Medium](./src/leetcode/tree/leet_zh_199/Solution.java)
     - [235. 二叉搜索树的最近公共祖先 - Easy](./src/leetcode/tree/leet_zh_235/Solution.java)
     - [236. 二叉树的最近公共祖先 - Medium](./src/leetcode/tree/leet_zh_236/Solution.java)
+    - [257. 二叉树的所有路径 - Easy](./src/leetcode/tree/leet_zh_257/Solution2.java)
     - [297. 二叉树的序列化与反序列化 - Hard](./src/leetcode/tree/leet_zh_1167/Codec.java)
     - [450. 删除二叉搜索树中的节点](./src/leetcode/tree/leet_en_450/Solution.java)
     - [530. 二叉搜索树的最小绝对差 - Easy_treeToList](./src/leetcode/tree/leet_zh_530/Solution.java)
