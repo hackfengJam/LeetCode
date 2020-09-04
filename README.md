@@ -200,6 +200,16 @@
     - [变态跳台阶 - 动态规划](./src/nowcoder/offer/JumpFloorII/Solution.java)
     - [变态跳台阶 - 数学](./src/nowcoder/offer/JumpFloorII/Solution2.java)
 
+#### LeetCode
+
+- 【剑指Offer】
+    - [剑指 Offer 54. 二叉搜索树的第k大节点](./src/leetcode_specialized/offer/leet_zh_54/Solution.java)
+
+
+#### ByteDance
+
+- [二叉搜索树中第k小的节点](./src/leetcode_specialized/bytedance/kth_smallest/Solution.java)
+
 
 #### 注意
 
