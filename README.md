@@ -64,8 +64,11 @@
     - [20. Valid Parentheses（合法/有效的括号）- Easy](./src/leetcode/stack/leet_en_20/Solution.java)
     - [155. 最小栈 - Easy](./src/leetcode/stack/leet_en_20/Solution.java)
     - [856. 括号的分数 - Medium](./src/leetcode/tree/leet_zh_856/Solution2.java)
+- 【堆】
+    - [347. 前 K 个高频元素 - Medium](./src/leetcode/heap/leet_zh_347/Solution.java)
 - 【哈希与映射】
     - [1. 两数之和 - Easy](./src/leetcode/hash_mapping/leet_zh_1/Solution2.java)
+    - [347. 前 K 个高频元素 - Medium](./src/leetcode/heap/leet_zh_347/Solution.java)
     - [380. 常数时间插入、删除和获取随机元素- Medium_pending](./src/leetcode/hash_mapping/leet_zh_1164/RandomizedSet.java)
 - 【链表】
     - [2. 两数相加 - Medium](./src/leetcode/list/leet_zh_2/Solution.java)
