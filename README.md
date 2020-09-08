@@ -29,7 +29,8 @@
     - [无重复字符的最长子串 - Medium](src/leetcode_specialized/bytedance/string/longest_substring_without_repeating_characters/Solution.java)
     - [最长公共前缀 - Easy](src/leetcode_specialized/bytedance/string/longest_common_prefix/Solution.java)
 - 【回溯】  
-    - [10. 正则表达式匹配 - Hard](src/leetcode/dynamic_programming/leet_zh_10/Solution.java)  
+    - [10. 正则表达式匹配 - Hard](src/leetcode/backtrack/leet_zh_10/Solution.java)  
+    - [77. 组合 - Medium](src/leetcode/backtrack/leet_zh_77/Solution.java)  
 - 【贪心算法】
     - [455. 分发饼干 - Easy](./src/leetcode/greedy/leet_zh_455/Solution.java)
 - 【动态规划】
