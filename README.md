@@ -74,6 +74,7 @@
 - 【链表】
     - [2. 两数相加 - Medium](./src/leetcode/list/leet_zh_2/Solution.java)
     - [19. 删除链表的倒数第N个节点 - Medium](./src/leetcode/list/leet_zh_19/Solution.java)
+    - [25. K 个一组翻转链表 - Hard](./src/leetcode/list/leet_zh_25/Solution.java)
     - [138. 复制带随机指针的链表 - Medium](./src/leetcode/list/leet_zh_138/Solution.java)
     - [141. 环形链表 - Easy](./src/leetcode/list/leet_zh_141/Solution.java)
     - [148. 排序链表 - Medium](./src/leetcode/list/leet_zh_148/Solution.java)
