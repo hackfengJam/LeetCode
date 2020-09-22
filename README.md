@@ -6,6 +6,11 @@
 #### LeetCode 刷题系列
 
 
+- 【SQL】  
+    - [182. 查找重复的电子邮箱 - Easy](src/leetcode/sql/leet_zh_182/Solution.sql)
+
+- 【Shell】  
+
 - 【杂项】
     - [16. 最接近的三数之和 - Medium](src/leetcode/algo/misc/leet_zh_16/Solution.java)
     - [50. Pow(x, n) - Medium](src/leetcode/algo/misc/leet_zh_1106/Solution.java)
