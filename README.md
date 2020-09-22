@@ -52,6 +52,7 @@
     - [343. 整数拆分 - Medium](./src/leetcode/dynamic_programming/leet_zh_343/Solution.java)
     - [395. 至少有K个重复字符的最长子串 - Medium](./src/leetcode/dynamic_programming/leet_zh_395/Solution.java)
     - [838. 推多米诺 - Medium](./src/leetcode/dynamic_programming/leet_zh_838/Solution.java)
+    - [887. 鸡蛋掉落 - Hard](./src/leetcode/dynamic_programming/leet_zh_887/Solution.java)
 - 【DFS（深度优先遍历）】
     - [22. 括号生成 - Medium](./src/leetcode/backtrack/leet_zh_22/Solution.java)
     - [51. N 皇后 - Hard_递归](./src/leetcode/backtrack/zh_51_n_queens/Solution.java)
