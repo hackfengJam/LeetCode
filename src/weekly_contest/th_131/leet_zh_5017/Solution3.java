@@ -1,7 +1,7 @@
 package weekly_contest.th_131.leet_zh_5017;
 
-import leetcode.tree.base.TreeNode;
-import leetcode.tree.leet_zh_1167.Codec;
+import leetcode.algo.tree.base.TreeNode;
+import leetcode.algo.tree.leet_zh_1167.Codec;
 
 public class Solution3 {
 

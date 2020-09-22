@@ -1,6 +1,6 @@
 package leetcode_specialized.bytedance.linked_list_and_tree.merge_two_sorted_lists;
 
-import leetcode.list.base.ListNode;
+import leetcode.algo.list.base.ListNode;
 
 public class Solution {
     /*

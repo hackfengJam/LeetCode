@@ -1,6 +1,6 @@
 package leetcode_specialized.bytedance.kth_smallest;
 
-import leetcode.tree.base.TreeNode;
+import leetcode.algo.tree.base.TreeNode;
 
 public class Solution {
     /*
