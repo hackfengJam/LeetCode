@@ -8,8 +8,11 @@
 
 - 【SQL】  
     - [182. 查找重复的电子邮箱 - Easy](src/leetcode/sql/leet_zh_182/Solution.sql)
+    - [627. 交换工资 - Easy](src/leetcode/sql/leet_zh_627/Solution.sql)
 
 - 【Shell】  
+    - [195. 第十行 - Easy](src/leetcode/shell/leet_zh_195/Solution.sh)
+    - [192. 统计词频 - Medium](src/leetcode/shell/leet_zh_192/Solution.sh)
 
 - 【杂项】
     - [16. 最接近的三数之和 - Medium](src/leetcode/algo/misc/leet_zh_16/Solution.java)
