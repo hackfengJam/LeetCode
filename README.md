@@ -3,7 +3,7 @@
 
 ---
 
-### LeetCode 刷题系列
+## LeetCode 刷题系列
 
 
 #### SQL
